@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的清单应用</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/jquery.datetimepicker.css" />
+		<link rel="stylesheet" href="css/base.css" />
+	</head>
+	<body>
+		<div class="msg">
+			<span class="msg-content"></span>
+			<span class="anchor confirmed">知道了</span>
+		</div>
+		<article class="container">
+			<h1>我的清单应用</h1>
+			<form class="add-task">
+				<input name="content" type="text" placeholder="e.g. 吃完饭记得吃药" autofocus autocomplete="off" />
+				<button type="submit">submit</button>
+			</form>
+			<section class="task-list">
+				<!-- <div class="task-item">
+					<span><input type="checkBox"></span>
+					<span class="task-content">item content 1</span>
+					<span>delete</span>
+					<span>detail</span>
+				</div> -->
+			</section>
+			<section class="task-detail-mask"></section>
+			<section class="task-detail"></section>
+		</article>
+		<video class="alerter" src="alert.mp3"></video>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery.datetimepicker.full.js"></script>
+	<script type="text/javascript" src="js/store.min.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+</html>
